@@ -3556,6 +3556,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 160.02) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014e6910-f696-4062-a91a-67e6ad6604a6")
+	)
+	(wire
+		(pts
 			(xy 127 39.37) (xy 129.54 39.37)
 		)
 		(stroke
@@ -3826,16 +3836,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 132.08) (xy 129.54 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888f9a41-9e93-4bdf-95ed-08645c083c34")
-	)
-	(wire
-		(pts
 			(xy 69.85 30.48) (xy 80.01 30.48)
 		)
 		(stroke
@@ -4074,16 +4074,6 @@
 		)
 		(uuid "c7db12cf-6f31-4028-bd17-0f0334545e24")
 	)
-	(label "SPI2_CLK"
-		(at 129.54 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d585250d-ad15-419e-8c21-e21fc07e07fa")
-	)
 	(label "SPI2_MISO"
 		(at 236.855 36.195 270)
 		(effects
@@ -4093,6 +4083,16 @@
 			(justify right bottom)
 		)
 		(uuid "da4ae7e6-c15d-4ed3-a660-7aee7bac54c1")
+	)
+	(label "SPI2_CLK"
+		(at 129.54 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daf117ed-c75a-4173-be8d-2125bc386d80")
 	)
 	(label "SPI2_MOSI"
 		(at 234.315 36.195 270)
