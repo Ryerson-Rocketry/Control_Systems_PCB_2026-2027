@@ -5395,6 +5395,16 @@
 		)
 		(uuid "730a2a1b-118f-4533-ac7f-9f8ac91a8e05")
 	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e593a3-da52-45dc-a144-7dbf3751c5fd")
+	)
 	(polyline
 		(pts
 			(xy 300.99 13.97) (xy 300.99 95.25)
@@ -5514,16 +5524,6 @@
 			(type default)
 		)
 		(uuid "b988e7f0-947c-4b64-a606-40e66bf9a51d")
-	)
-	(wire
-		(pts
-			(xy 123.19 161.29) (xy 128.27 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe49f45-088d-4173-9075-89d118f851d1")
 	)
 	(wire
 		(pts
@@ -5916,14 +5916,14 @@
 		(uuid "ddfb1054-39ad-45ed-b2e6-84e7f90bb3e9")
 	)
 	(label "SPI2_CLK"
-		(at 128.27 161.29 0)
+		(at 128.27 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f0297de5-ba25-4435-9dea-eb6b9923caa7")
+		(uuid "e5c8ee99-6008-4bbe-8a91-2bf65ecc7b1b")
 	)
 	(symbol
 		(lib_id "power:GND")
