@@ -8282,7 +8282,7 @@
 		)
 		(uuid "b08ee337-8c44-410b-a11e-2b05fc240c6e")
 	)
-	(label "SPI1_NSS"
+	(label "SPI1_IMU_CS"
 		(at 129.54 68.58 0)
 		(effects
 			(font
@@ -8332,7 +8332,7 @@
 		)
 		(uuid "cac75728-8758-49d8-996d-8f74ef9de9e5")
 	)
-	(label "SPI1_NSS"
+	(label "SPI1_IMU_CS"
 		(at 466.09 48.26 180)
 		(effects
 			(font
