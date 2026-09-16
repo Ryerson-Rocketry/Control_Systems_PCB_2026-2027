@@ -645,17 +645,62 @@
     "top_level_sheets": [
       {
         "filename": "Control_Systems_PCB_2026-2027.kicad_sch",
-        "name": "Root",
+        "name": "STM32F446VETx MCU",
         "uuid": "d0b34c1e-fac8-41da-8ed8-abe3ae792177"
+      },
+      {
+        "filename": "gps.kicad_sch",
+        "name": "GPS",
+        "uuid": "4cb8d8c9-28c6-4034-89a3-cec1725e3c68"
+      },
+      {
+        "filename": "untitled.kicad_sch",
+        "name": "Barometer",
+        "uuid": "cbc78bbf-0414-4702-8a1e-97634f37ed73"
+      },
+      {
+        "filename": "usb-c_recepticle.kicad_sch",
+        "name": "USB-C Recepticle",
+        "uuid": "2bed0769-a6ea-4b71-b726-c9352a4abfa9"
+      },
+      {
+        "filename": "imu.kicad_sch",
+        "name": "IMU",
+        "uuid": "8d8da9fa-3630-49c7-9b02-92000b9bf869"
+      },
+      {
+        "filename": "microsd.kicad_sch",
+        "name": "MicroSD",
+        "uuid": "11773242-8937-4487-9173-168ac44190a7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D7-12,#PWR39-44,C19-20,R8-12,J4",
     "variants": []
   },
   "sheets": [
     [
       "d0b34c1e-fac8-41da-8ed8-abe3ae792177",
-      "Root"
+      "STM32F446VETx MCU"
+    ],
+    [
+      "4cb8d8c9-28c6-4034-89a3-cec1725e3c68",
+      "GPS"
+    ],
+    [
+      "cbc78bbf-0414-4702-8a1e-97634f37ed73",
+      "Barometer"
+    ],
+    [
+      "2bed0769-a6ea-4b71-b726-c9352a4abfa9",
+      "USB-C Recepticle"
+    ],
+    [
+      "8d8da9fa-3630-49c7-9b02-92000b9bf869",
+      "IMU"
+    ],
+    [
+      "11773242-8937-4487-9173-168ac44190a7",
+      "MicroSD"
     ]
   ],
   "text_variables": {},
