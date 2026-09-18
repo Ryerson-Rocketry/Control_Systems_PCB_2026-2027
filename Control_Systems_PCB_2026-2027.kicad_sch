@@ -3182,6 +3182,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 264.16) (xy 336.55 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107cca63-f2d8-4106-ac83-70bb60d24f8d")
+	)
+	(wire
+		(pts
 			(xy 341.63 241.3) (xy 336.55 241.3)
 		)
 		(stroke
@@ -3272,6 +3282,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 213.36) (xy 336.55 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434da83a-445b-4864-b2ef-f97219ec1417")
+	)
+	(wire
+		(pts
 			(xy 261.62 134.62) (xy 271.78 134.62)
 		)
 		(stroke
@@ -3279,6 +3299,16 @@
 			(type default)
 		)
 		(uuid "43770f9f-4027-448d-80e1-6d89e75718a6")
+	)
+	(wire
+		(pts
+			(xy 279.4 182.88) (xy 285.75 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45306a72-19c9-4aa4-859f-529ef67eb717")
 	)
 	(wire
 		(pts
@@ -3329,6 +3359,16 @@
 			(type default)
 		)
 		(uuid "583e468c-e18d-44f5-bcdc-7675a97193a1")
+	)
+	(wire
+		(pts
+			(xy 280.67 248.92) (xy 285.75 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616abd79-129d-4fb9-b54f-8c41da580b38")
 	)
 	(wire
 		(pts
@@ -3399,6 +3439,16 @@
 			(type default)
 		)
 		(uuid "7a9d408a-c560-4953-9853-9d4ebeb49de4")
+	)
+	(wire
+		(pts
+			(xy 280.67 254) (xy 285.75 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d048f43-ddeb-4a77-828f-9c1e893ff888")
 	)
 	(wire
 		(pts
@@ -3542,6 +3592,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 228.6) (xy 285.75 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30191f6-19dd-4a47-ad85-a85c984057c5")
+	)
+	(wire
+		(pts
 			(xy 306.07 144.78) (xy 308.61 144.78)
 		)
 		(stroke
@@ -3640,6 +3700,16 @@
 		)
 		(uuid "0d9e426a-c09c-4ad4-93fc-4a2f3dbfdc41")
 	)
+	(label "QUADSPI_BK1_IO2"
+		(at 279.4 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e911cb6-2f51-4aca-b50e-60276e8c1689")
+	)
 	(label "SDIO_D3"
 		(at 341.63 266.7 0)
 		(effects
@@ -3700,6 +3770,16 @@
 		)
 		(uuid "3d8b441b-db07-4257-92b0-3918634d6ecb")
 	)
+	(label "QUADSPI_CLK"
+		(at 280.67 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "506b85bc-491c-4025-be84-5706115c9dce")
+	)
 	(label "SDIO_D1"
 		(at 342.9 198.12 0)
 		(effects
@@ -3720,6 +3800,16 @@
 		)
 		(uuid "5bc270a7-19af-4dda-9c3e-d274b84f8df0")
 	)
+	(label "QUADSPI_BK1_IO1"
+		(at 341.63 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6baa6840-71b5-4068-8ce1-11b031f94c31")
+	)
 	(label "GPIO_EXTI0"
 		(at 341.63 238.76 0)
 		(effects
@@ -3739,6 +3829,16 @@
 			(justify left bottom)
 		)
 		(uuid "81302ae5-c6df-4a74-a552-b451927c2ddd")
+	)
+	(label "QUADSPI_BK1_IO3"
+		(at 280.67 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9499e822-6feb-41f7-9cae-f38f0c54acac")
 	)
 	(label "PD10_CS"
 		(at 280.67 241.3 180)
@@ -3780,6 +3880,16 @@
 		)
 		(uuid "b673d777-ee2e-4acb-89e0-45e2cb30da02")
 	)
+	(label "QUADSPI_BK1_NCS"
+		(at 342.9 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6870097-8c4f-4d40-8eb4-43656de32558")
+	)
 	(label "SDIO_CMD"
 		(at 280.67 226.06 180)
 		(effects
@@ -3809,6 +3919,16 @@
 			(justify left bottom)
 		)
 		(uuid "d3245ef0-c31a-40b8-a712-8ebc80728ef5")
+	)
+	(label "QUADSPI_BK1_IO0"
+		(at 280.67 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e497f339-4b4c-40ab-ac0e-9300b62c9580")
 	)
 	(symbol
 		(lib_id "power:VDD")

@@ -672,9 +672,14 @@
         "filename": "microsd.kicad_sch",
         "name": "MicroSD",
         "uuid": "11773242-8937-4487-9173-168ac44190a7"
+      },
+      {
+        "filename": "flash_memory_module.kicad_sch",
+        "name": "Flash Memory Module",
+        "uuid": "c73b8866-e9ea-4ba1-87a5-2a730004a971"
       }
     ],
-    "used_designators": "D7-12,#PWR39-44,C19-20,R8-12,J4",
+    "used_designators": "U3,C10-11,#PWR6,#PWR8-12",
     "variants": []
   },
   "sheets": [
@@ -701,6 +706,10 @@
     [
       "11773242-8937-4487-9173-168ac44190a7",
       "MicroSD"
+    ],
+    [
+      "c73b8866-e9ea-4ba1-87a5-2a730004a971",
+      "Flash Memory Module"
     ]
   ],
   "text_variables": {},
