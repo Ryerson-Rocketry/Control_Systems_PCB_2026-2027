@@ -3212,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 187.96) (xy 336.55 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222a9d38-67cd-447b-bd45-33258ad0d8be")
+	)
+	(wire
+		(pts
 			(xy 341.63 259.08) (xy 336.55 259.08)
 		)
 		(stroke
@@ -3259,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "3951effd-86e8-4b05-be2e-66a7f222da34")
+	)
+	(wire
+		(pts
+			(xy 342.9 205.74) (xy 336.55 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac0cb88-caf8-4f7a-b3ce-0e8d87fa8fa2")
 	)
 	(wire
 		(pts
@@ -3332,6 +3352,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 190.5) (xy 336.55 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690326ba-3dec-4c82-b85b-9f0556bd5a12")
+	)
+	(wire
+		(pts
 			(xy 342.9 198.12) (xy 336.55 198.12)
 		)
 		(stroke
@@ -3399,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "7a9d408a-c560-4953-9853-9d4ebeb49de4")
+	)
+	(wire
+		(pts
+			(xy 280.67 154.94) (xy 285.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8068d9a5-d919-44a0-8e53-87ee11455d1a")
 	)
 	(wire
 		(pts
@@ -3640,6 +3680,36 @@
 		)
 		(uuid "0d9e426a-c09c-4ad4-93fc-4a2f3dbfdc41")
 	)
+	(label "SWDIO"
+		(at 341.63 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f89386e-1862-4033-adf6-5b8053ea3e41")
+	)
+	(label "SWCLK"
+		(at 341.63 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f2df4e-be9d-4daa-8747-a21c5cb573d2")
+	)
+	(label "SWO"
+		(at 342.9 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28e43b17-7325-4cd8-a456-3400d36fafc1")
+	)
 	(label "SDIO_D3"
 		(at 341.63 266.7 0)
 		(effects
@@ -3709,6 +3779,16 @@
 			(justify left bottom)
 		)
 		(uuid "561401a5-ffa2-448c-a60f-b6504f911f52")
+	)
+	(label "NRST"
+		(at 280.67 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58bfcdea-184d-48aa-b8bd-27604f2ecf01")
 	)
 	(label "SDIO_D0"
 		(at 341.63 259.08 0)
