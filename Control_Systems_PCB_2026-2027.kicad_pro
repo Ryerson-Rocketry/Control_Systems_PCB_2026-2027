@@ -672,9 +672,14 @@
         "filename": "microsd.kicad_sch",
         "name": "MicroSD",
         "uuid": "11773242-8937-4487-9173-168ac44190a7"
+      },
+      {
+        "filename": "radio.kicad_sch",
+        "name": "Radio",
+        "uuid": "8d22f56c-ffd9-4f86-bdfb-aed17e3b36d9"
       }
     ],
-    "used_designators": "D7-12,#PWR39-44,C19-20,R8-12,J4",
+    "used_designators": "#PWR14-19,C10-12,C21-26,FB2,U3",
     "variants": []
   },
   "sheets": [
@@ -701,6 +706,10 @@
     [
       "11773242-8937-4487-9173-168ac44190a7",
       "MicroSD"
+    ],
+    [
+      "8d22f56c-ffd9-4f86-bdfb-aed17e3b36d9",
+      "Radio"
     ]
   ],
   "text_variables": {},
