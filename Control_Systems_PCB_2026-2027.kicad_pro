@@ -672,9 +672,14 @@
         "filename": "microsd.kicad_sch",
         "name": "MicroSD",
         "uuid": "11773242-8937-4487-9173-168ac44190a7"
+      },
+      {
+        "filename": "12v.kicad_sch",
+        "name": "12V",
+        "uuid": "79e9ee0b-d716-462c-9a5d-20bf8b53bebd"
       }
     ],
-    "used_designators": "D7-12,#PWR39-44,C19-20,R8-12,J4",
+    "used_designators": "D7-12,#PWR6,#PWR8,#PWR39-44,C19-20,#FLG1-2,R8-12,J4,CN1",
     "variants": []
   },
   "sheets": [
@@ -701,6 +706,10 @@
     [
       "11773242-8937-4487-9173-168ac44190a7",
       "MicroSD"
+    ],
+    [
+      "79e9ee0b-d716-462c-9a5d-20bf8b53bebd",
+      "12V"
     ]
   ],
   "text_variables": {},
