@@ -4056,7 +4056,7 @@
 		)
 		(uuid "68f24ed1-8a75-493c-bde4-3866a25533b2")
 	)
-	(label "PIN2_CH3_PWM"
+	(label "TIM2_CH3_PWM"
 		(at 341.63 160.02 0)
 		(effects
 			(font
