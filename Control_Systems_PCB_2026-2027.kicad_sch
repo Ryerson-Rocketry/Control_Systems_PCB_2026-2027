@@ -3378,6 +3378,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 254) (xy 341.63 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0b7d03-7ff5-4dc6-933c-dac3715c95b1")
+	)
+	(wire
+		(pts
 			(xy 341.63 259.08) (xy 336.55 259.08)
 		)
 		(stroke
@@ -3385,6 +3395,16 @@
 			(type default)
 		)
 		(uuid "2a178ec0-8c01-4f5e-97fc-30020575650f")
+	)
+	(wire
+		(pts
+			(xy 279.4 200.66) (xy 285.75 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2dd8c4-878d-4199-bd20-c6d081657409")
 	)
 	(wire
 		(pts
@@ -3558,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 160.02) (xy 341.63 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e026979-7645-419b-997a-5080f180d433")
+	)
+	(wire
+		(pts
 			(xy 292.1 127) (xy 302.26 127)
 		)
 		(stroke
@@ -3708,6 +3738,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 190.5) (xy 285.75 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad53591-bfc0-42bc-ab3b-0efc59d4da36")
+	)
+	(wire
+		(pts
 			(xy 336.55 182.88) (xy 341.63 182.88)
 		)
 		(stroke
@@ -3755,6 +3795,16 @@
 			(type default)
 		)
 		(uuid "bde0a980-163e-41fc-afad-4f7fe1ec1f88")
+	)
+	(wire
+		(pts
+			(xy 336.55 162.56) (xy 341.63 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf725f2-8090-4e87-b3cd-43e56e2e86d7")
 	)
 	(wire
 		(pts
@@ -3845,6 +3895,16 @@
 			(type default)
 		)
 		(uuid "f4d1c8a0-fa3b-491e-a6ee-10cd5d32fe86")
+	)
+	(label "TIM5_CH4_PWM"
+		(at 341.63 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0880346c-6dca-4a49-89bc-60470bdf21f3")
 	)
 	(label "SPI2_MISO"
 		(at 341.63 231.14 0)
@@ -3946,6 +4006,16 @@
 		)
 		(uuid "3d8b441b-db07-4257-92b0-3918634d6ecb")
 	)
+	(label "TIM9_CH1_PWM"
+		(at 279.4 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52c9fd14-6128-44b7-96ab-67ffd0b1ae5d")
+	)
 	(label "SDIO_D1"
 		(at 342.9 198.12 0)
 		(effects
@@ -3975,6 +4045,26 @@
 			(justify left bottom)
 		)
 		(uuid "5bc270a7-19af-4dda-9c3e-d274b84f8df0")
+	)
+	(label "TIM1_CH1_PWM"
+		(at 279.4 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68f24ed1-8a75-493c-bde4-3866a25533b2")
+	)
+	(label "PIN2_CH3_PWM"
+		(at 341.63 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d2265b0-5769-4c92-87e9-3cda63ec00dc")
 	)
 	(label "GPIO_EXTI0"
 		(at 341.63 238.76 0)
@@ -4065,6 +4155,16 @@
 			(justify left bottom)
 		)
 		(uuid "d3245ef0-c31a-40b8-a712-8ebc80728ef5")
+	)
+	(label "TIM8_CH1_PWM"
+		(at 341.63 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d569231f-6623-444f-a4ca-2d2c811dccd5")
 	)
 	(symbol
 		(lib_id "power:VDD")
