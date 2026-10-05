@@ -1854,6 +1854,7 @@
 		)
 		(uuid "a8c946e0-e85f-43a6-a33e-f10bd6bb1655")
 	)
+<<<<<<< HEAD
 	(label ""
 		(at 124.46 86.36 0)
 		(effects
@@ -1864,6 +1865,8 @@
 		)
 		(uuid "b67ac72a-9596-4dea-b1bd-eddcdb36f986")
 	)
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 	(label "D-TVS"
 		(at 116.84 101.6 0)
 		(effects
@@ -1874,6 +1877,7 @@
 		)
 		(uuid "e726961e-d221-4fe8-9d87-c5c62c8b44f4")
 	)
+<<<<<<< HEAD
 	(global_label "VBUS"
 		(shape input)
 		(at 113.03 82.55 180)
@@ -1898,6 +1902,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 	(symbol
 		(lib_id "power:GND")
 		(at 184.15 110.49 0)
@@ -2753,4 +2759,8 @@
 			(page "4")
 		)
 	)
+<<<<<<< HEAD
+=======
+	(embedded_fonts no)
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 )

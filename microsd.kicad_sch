@@ -3588,4 +3588,8 @@
 			(page "6")
 		)
 	)
+<<<<<<< HEAD
+=======
+	(embedded_fonts no)
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 )

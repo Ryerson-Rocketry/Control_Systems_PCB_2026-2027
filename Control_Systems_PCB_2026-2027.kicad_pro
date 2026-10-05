@@ -449,7 +449,10 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+<<<<<<< HEAD
       "global_label_dangling": "warning",
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -523,6 +526,7 @@
   },
   "pcbnew": {
     "last_paths": {
+<<<<<<< HEAD
       "gencad": "",
       "idf": "",
       "netlist": "",
@@ -531,6 +535,13 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
+=======
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "step": "",
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -641,6 +652,7 @@
     "meta": {
       "version": 1
     },
+<<<<<<< HEAD
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -652,6 +664,11 @@
     "spice_save_all_currents": false,
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
+=======
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -686,7 +703,11 @@
         "uuid": "11773242-8937-4487-9173-168ac44190a7"
       }
     ],
+<<<<<<< HEAD
     "used_designators": "BT1-2,D7-12,#PWR6,#PWR8-13,#PWR39-44,C10-12,C19-21,#FLG1-4,R1,R8-12,J4,U2-4,U9",
+=======
+    "used_designators": "D7-12,#PWR39-44,C19-20,R8-12,J4",
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
     "variants": []
   },
   "sheets": [

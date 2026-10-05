@@ -1163,6 +1163,17 @@
 		(color 0 0 0 0)
 		(uuid "fcf7e652-dab9-4061-8520-d9b4887b0ffc")
 	)
+<<<<<<< HEAD
+=======
+	(no_connect
+		(at 148.59 97.79)
+		(uuid "6df0d199-5f52-4d6c-9c98-78a0cb9dcd06")
+	)
+	(no_connect
+		(at 148.59 73.66)
+		(uuid "a736429e-b215-4a93-9729-260bf549b7a7")
+	)
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 	(wire
 		(pts
 			(xy 166.37 82.55) (xy 166.37 80.01)
@@ -1255,6 +1266,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 153.67 97.79) (xy 153.67 101.6)
 		)
 		(stroke
@@ -1265,6 +1277,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 			(xy 140.97 78.74) (xy 140.97 81.28)
 		)
 		(stroke
@@ -1395,6 +1409,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 149.86 73.66) (xy 149.86 76.2)
 		)
 		(stroke
@@ -1405,6 +1420,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 			(xy 110.49 81.28) (xy 140.97 81.28)
 		)
 		(stroke
@@ -1415,6 +1432,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 148.59 97.79) (xy 153.67 97.79)
 		)
 		(stroke
@@ -1425,6 +1443,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 			(xy 177.8 92.71) (xy 166.37 92.71)
 		)
 		(stroke
@@ -1435,6 +1455,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 148.59 73.66) (xy 149.86 73.66)
 		)
 		(stroke
@@ -1445,6 +1466,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 			(xy 157.48 68.58) (xy 157.48 92.71)
 		)
 		(stroke
@@ -1956,6 +1979,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 153.67 101.6 0)
 		(unit 1)
@@ -2034,6 +2058,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 		(lib_id "Device:C")
 		(at 166.37 86.36 0)
 		(unit 1)
@@ -2067,7 +2093,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+=======
+		(property "Footprint" ""
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 			(at 167.3352 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2149,7 +2179,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+=======
+		(property "Footprint" ""
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 			(at 176.022 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -2275,6 +2309,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 149.86 76.2 0)
 		(unit 1)
@@ -2353,6 +2388,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 08bb186caa5d13bfa0672864f7b1cc286b71f5a3
 		(lib_id "power:PWR_FLAG")
 		(at 110.49 64.77 0)
 		(unit 1)
