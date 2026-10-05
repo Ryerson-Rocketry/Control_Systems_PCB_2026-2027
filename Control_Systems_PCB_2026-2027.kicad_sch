@@ -330,6 +330,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F4:STM32F446VETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3113,6 +3253,12 @@
 		(uuid "b249fe3b-ee04-4879-a76e-278e78cf3eab")
 	)
 	(junction
+		(at 283.21 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b64ddf6b-5773-4ec0-b281-f7b3f2e65490")
+	)
+	(junction
 		(at 351.79 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3192,6 +3338,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 152.4) (xy 283.21 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbaa85b-2978-4c6e-b26e-8da49ba12a4e")
+	)
+	(wire
+		(pts
 			(xy 285.75 241.3) (xy 280.67 241.3)
 		)
 		(stroke
@@ -3209,6 +3365,16 @@
 			(type default)
 		)
 		(uuid "1ff407ee-47b0-48ed-a101-7edba53e9655")
+	)
+	(wire
+		(pts
+			(xy 341.63 187.96) (xy 336.55 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222a9d38-67cd-447b-bd45-33258ad0d8be")
 	)
 	(wire
 		(pts
@@ -3259,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "3951effd-86e8-4b05-be2e-66a7f222da34")
+	)
+	(wire
+		(pts
+			(xy 342.9 205.74) (xy 336.55 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac0cb88-caf8-4f7a-b3ce-0e8d87fa8fa2")
 	)
 	(wire
 		(pts
@@ -3329,6 +3505,26 @@
 			(type default)
 		)
 		(uuid "583e468c-e18d-44f5-bcdc-7675a97193a1")
+	)
+	(wire
+		(pts
+			(xy 280.67 154.94) (xy 283.21 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67550ec2-f4aa-4633-8f76-1498ed38f0d0")
+	)
+	(wire
+		(pts
+			(xy 341.63 190.5) (xy 336.55 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690326ba-3dec-4c82-b85b-9f0556bd5a12")
 	)
 	(wire
 		(pts
@@ -3622,6 +3818,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 144.78) (xy 283.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddcabc5-387c-439b-a526-465248ffddb7")
+	)
+	(wire
+		(pts
 			(xy 339.09 135.89) (xy 330.2 135.89)
 		)
 		(stroke
@@ -3629,6 +3835,16 @@
 			(type default)
 		)
 		(uuid "f17c82a9-f358-4337-a9c1-5acf417b7118")
+	)
+	(wire
+		(pts
+			(xy 283.21 154.94) (xy 285.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d1c8a0-fa3b-491e-a6ee-10cd5d32fe86")
 	)
 	(label "SPI2_MISO"
 		(at 341.63 231.14 0)
@@ -3639,6 +3855,36 @@
 			(justify left bottom)
 		)
 		(uuid "0d9e426a-c09c-4ad4-93fc-4a2f3dbfdc41")
+	)
+	(label "SWDIO"
+		(at 341.63 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f89386e-1862-4033-adf6-5b8053ea3e41")
+	)
+	(label "SWCLK"
+		(at 341.63 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f2df4e-be9d-4daa-8747-a21c5cb573d2")
+	)
+	(label "SWO"
+		(at 342.9 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28e43b17-7325-4cd8-a456-3400d36fafc1")
 	)
 	(label "SDIO_D3"
 		(at 341.63 266.7 0)
@@ -3709,6 +3955,16 @@
 			(justify left bottom)
 		)
 		(uuid "561401a5-ffa2-448c-a60f-b6504f911f52")
+	)
+	(label "NRST"
+		(at 280.67 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58bfcdea-184d-48aa-b8bd-27604f2ecf01")
 	)
 	(label "SDIO_D0"
 		(at 341.63 259.08 0)
@@ -3883,6 +4139,86 @@
 			(project "Control_Systems_PCB_2026-2027"
 				(path "/d0b34c1e-fac8-41da-8ed8-abe3ae792177"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 283.21 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29bc56f5-34e7-477d-bd87-ba47632aed35")
+		(property "Reference" "R1"
+			(at 276.86 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 279.4 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 284.988 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 283.21 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "747eb74f-dbf9-4803-828b-c8211df7d71e")
+		)
+		(pin "2"
+			(uuid "b1b6d049-b917-48ea-bdd1-b782bb73c657")
+		)
+		(instances
+			(project "Control_Systems_PCB_2026-2027"
+				(path "/d0b34c1e-fac8-41da-8ed8-abe3ae792177"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5141,6 +5477,84 @@
 			(project "Control_Systems_PCB_2026-2027"
 				(path "/d0b34c1e-fac8-41da-8ed8-abe3ae792177"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 283.21 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0ea68a0-6a1c-408b-83d6-69c577434bb1")
+		(property "Reference" "#PWR06"
+			(at 283.21 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 283.21 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 283.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ae00238-103e-46eb-a222-07d2ee3236c6")
+		)
+		(instances
+			(project "Control_Systems_PCB_2026-2027"
+				(path "/d0b34c1e-fac8-41da-8ed8-abe3ae792177"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
