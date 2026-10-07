@@ -4653,7 +4653,7 @@
 		)
 		(uuid "1140c2f3-8ff6-4b17-85ff-5398a118569e")
 	)
-	(label "Radio_IO0"
+	(label "Radio_BUSY"
 		(at 231.14 171.45 0)
 		(effects
 			(font
@@ -4833,7 +4833,7 @@
 		)
 		(uuid "bb0419d5-2480-400c-a74c-babc9b37102d")
 	)
-	(label "Radio_IO3"
+	(label "TXEN_Radio"
 		(at 280.67 176.53 0)
 		(effects
 			(font
@@ -4883,7 +4883,7 @@
 		)
 		(uuid "c763bbf3-2e8a-4648-8e35-46eca3b2462f")
 	)
-	(label "Radio_IO1"
+	(label "Radio_NRST"
 		(at 231.14 173.99 0)
 		(effects
 			(font
@@ -4923,7 +4923,7 @@
 		)
 		(uuid "e8480bf1-4697-4298-a6b9-54cfeaf610ba")
 	)
-	(label "SPI_MOSI"
+	(label "SPI1_MOSI"
 		(at 231.14 179.07 0)
 		(effects
 			(font
@@ -4933,7 +4933,7 @@
 		)
 		(uuid "ecf43676-ff26-4912-9b09-53f42bc873ed")
 	)
-	(label "Radio_IO4"
+	(label "RXEN_Radio"
 		(at 280.67 179.07 0)
 		(effects
 			(font
