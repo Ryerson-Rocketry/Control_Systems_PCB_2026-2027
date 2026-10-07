@@ -3338,6 +3338,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 182.88) (xy 285.75 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b85a24-9433-464a-b9ca-f3bf7a88c5f5")
+	)
+	(wire
+		(pts
 			(xy 283.21 152.4) (xy 283.21 154.94)
 		)
 		(stroke
@@ -3915,6 +3925,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e7841c1-2fab-4725-a1c6-0253df08ec27")
+	)
+	(label "QUADSPI_BK1_IO2"
+		(at 278.13 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1609d3da-6275-42b8-bbe0-f8c3b7b7ac1b")
 	)
 	(label "SWDIO"
 		(at 341.63 187.96 0)
