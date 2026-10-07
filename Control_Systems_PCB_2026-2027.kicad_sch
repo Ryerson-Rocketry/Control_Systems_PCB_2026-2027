@@ -3718,6 +3718,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 228.6) (xy 285.75 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae002d0f-a7fb-4296-8318-ddf97813178c")
+	)
+	(wire
+		(pts
 			(xy 316.23 144.78) (xy 318.77 144.78)
 		)
 		(stroke
@@ -3765,6 +3775,36 @@
 			(type default)
 		)
 		(uuid "be003e6e-ad73-4fd3-ba86-735c5050ff50")
+	)
+	(wire
+		(pts
+			(xy 341.63 264.16) (xy 336.55 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee42a36-dbb0-430b-9fe8-be487371c433")
+	)
+	(wire
+		(pts
+			(xy 280.67 248.92) (xy 285.75 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e2f679-774d-46e3-b943-c523e9316910")
+	)
+	(wire
+		(pts
+			(xy 342.9 213.36) (xy 336.55 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c59cfb-5e91-41e6-9735-a123aa5392d0")
 	)
 	(wire
 		(pts
@@ -3846,6 +3886,16 @@
 		)
 		(uuid "f4d1c8a0-fa3b-491e-a6ee-10cd5d32fe86")
 	)
+	(wire
+		(pts
+			(xy 280.67 254) (xy 285.75 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa44432-d513-48f2-8723-1ceed56207b6")
+	)
 	(label "SPI2_MISO"
 		(at 341.63 231.14 0)
 		(effects
@@ -3855,6 +3905,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d9e426a-c09c-4ad4-93fc-4a2f3dbfdc41")
+	)
+	(label "QUADSPI_BK1_NCS"
+		(at 342.9 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e7841c1-2fab-4725-a1c6-0253df08ec27")
 	)
 	(label "SWDIO"
 		(at 341.63 187.96 0)
@@ -3946,6 +4006,16 @@
 		)
 		(uuid "3d8b441b-db07-4257-92b0-3918634d6ecb")
 	)
+	(label "QUADSPI_BK1_IO3"
+		(at 280.67 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45e4ca7f-61cd-443d-9afe-dc0150f2361a")
+	)
 	(label "SDIO_D1"
 		(at 342.9 198.12 0)
 		(effects
@@ -3976,6 +4046,16 @@
 		)
 		(uuid "5bc270a7-19af-4dda-9c3e-d274b84f8df0")
 	)
+	(label "QUADSPI_BK1_IO0"
+		(at 280.67 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a105f07-e85c-49ba-90e9-48bd455a52cf")
+	)
 	(label "GPIO_EXTI0"
 		(at 341.63 238.76 0)
 		(effects
@@ -3995,6 +4075,26 @@
 			(justify left bottom)
 		)
 		(uuid "81302ae5-c6df-4a74-a552-b451927c2ddd")
+	)
+	(label "QUADSPI_CLK"
+		(at 280.67 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9353b1fa-0a65-4e90-8504-9f09401fc899")
+	)
+	(label "QUADSPI_BK1_IO1"
+		(at 341.63 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "945a75f3-c682-4d8d-ae3f-c77caad9acb7")
 	)
 	(label "PD10_CS"
 		(at 280.67 241.3 180)
