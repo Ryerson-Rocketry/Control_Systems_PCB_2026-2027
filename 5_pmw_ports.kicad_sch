@@ -597,7 +597,7 @@
 		)
 		(uuid "ea0b4b7a-e064-44f8-8571-e12b67d102e5")
 	)
-	(label "TIM9_CH1_PWM"
+	(label "TIM2_CH1"
 		(at 194.31 67.31 180)
 		(effects
 			(font
@@ -607,7 +607,7 @@
 		)
 		(uuid "4479240f-372a-40e8-98ae-a1d86240f8da")
 	)
-	(label "TIM5_CH4_PWM"
+	(label "TIM4_CH1"
 		(at 135.89 69.85 180)
 		(effects
 			(font
@@ -617,7 +617,7 @@
 		)
 		(uuid "b5d3ffe1-7e53-41ae-a543-20e6fe1dd59e")
 	)
-	(label "TIM2_CH3_PWM"
+	(label "TIM4_CH3"
 		(at 102.87 83.82 180)
 		(effects
 			(font
@@ -627,7 +627,7 @@
 		)
 		(uuid "c71df86b-8ea8-4d73-a945-55ef7b62685a")
 	)
-	(label "TIM8_CH1_PWM"
+	(label "TIM4_CH2"
 		(at 156.21 90.17 180)
 		(effects
 			(font
@@ -637,7 +637,7 @@
 		)
 		(uuid "ea2ece98-652a-4bf5-a309-ca63aee0ae02")
 	)
-	(label "TIM1_CH1_PWM"
+	(label "TIM4_CH4"
 		(at 81.28 68.58 180)
 		(effects
 			(font

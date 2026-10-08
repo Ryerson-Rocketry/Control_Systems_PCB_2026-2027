@@ -3378,16 +3378,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 254) (xy 341.63 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0b7d03-7ff5-4dc6-933c-dac3715c95b1")
-	)
-	(wire
-		(pts
 			(xy 341.63 259.08) (xy 336.55 259.08)
 		)
 		(stroke
@@ -3395,16 +3385,6 @@
 			(type default)
 		)
 		(uuid "2a178ec0-8c01-4f5e-97fc-30020575650f")
-	)
-	(wire
-		(pts
-			(xy 279.4 200.66) (xy 285.75 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2dd8c4-878d-4199-bd20-c6d081657409")
 	)
 	(wire
 		(pts
@@ -3578,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 160.02) (xy 341.63 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e026979-7645-419b-997a-5080f180d433")
-	)
-	(wire
-		(pts
 			(xy 292.1 127) (xy 302.26 127)
 		)
 		(stroke
@@ -3648,6 +3618,26 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 256.54) (xy 285.75 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838a1291-f0eb-44fa-a7a2-7361a03b0232")
+	)
+	(wire
+		(pts
+			(xy 336.55 215.9) (xy 342.9 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cbf9ae-8983-437d-a446-0c7f5391ac75")
+	)
+	(wire
+		(pts
 			(xy 341.63 266.7) (xy 336.55 266.7)
 		)
 		(stroke
@@ -3698,6 +3688,26 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 193.04) (xy 341.63 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987d264d-4a5d-40e8-b95f-8b80145cb538")
+	)
+	(wire
+		(pts
+			(xy 280.67 251.46) (xy 285.75 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc7b2b1-0bd2-4bca-8510-43e008bfe7ed")
+	)
+	(wire
+		(pts
 			(xy 261.62 127) (xy 271.78 127)
 		)
 		(stroke
@@ -3738,16 +3748,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 190.5) (xy 285.75 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad53591-bfc0-42bc-ab3b-0efc59d4da36")
-	)
-	(wire
-		(pts
 			(xy 336.55 182.88) (xy 341.63 182.88)
 		)
 		(stroke
@@ -3778,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 259.08) (xy 285.75 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4faf0cb-c1f2-451a-973e-b2f14bcabf1a")
+	)
+	(wire
+		(pts
 			(xy 306.07 144.78) (xy 308.61 144.78)
 		)
 		(stroke
@@ -3795,16 +3805,6 @@
 			(type default)
 		)
 		(uuid "bde0a980-163e-41fc-afad-4f7fe1ec1f88")
-	)
-	(wire
-		(pts
-			(xy 336.55 162.56) (xy 341.63 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf725f2-8090-4e87-b3cd-43e56e2e86d7")
 	)
 	(wire
 		(pts
@@ -3896,15 +3896,15 @@
 		)
 		(uuid "f4d1c8a0-fa3b-491e-a6ee-10cd5d32fe86")
 	)
-	(label "TIM5_CH4_PWM"
-		(at 341.63 162.56 0)
+	(label "TIM4_CH1"
+		(at 280.67 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0880346c-6dca-4a49-89bc-60470bdf21f3")
+		(uuid "0022cf5f-9b51-4a78-9df2-2e46a14187b9")
 	)
 	(label "SPI2_MISO"
 		(at 341.63 231.14 0)
@@ -3956,6 +3956,16 @@
 		)
 		(uuid "29b42e63-69e5-4311-a3a2-1ae2a6a81881")
 	)
+	(label "TIM4_CH4"
+		(at 280.67 259.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bcd45f5-94ca-4750-b4ce-44b7590416b7")
+	)
 	(label "SPI1_MISO"
 		(at 341.63 170.18 0)
 		(effects
@@ -3965,6 +3975,16 @@
 			(justify left bottom)
 		)
 		(uuid "2bf8cef1-a322-4bbc-b586-8f829a1c4693")
+	)
+	(label "TIM2_CH1"
+		(at 341.63 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "306cbd33-3db6-4dbc-be76-48afc3ca0818")
 	)
 	(label "SPI1_SCK"
 		(at 341.63 167.64 0)
@@ -4006,16 +4026,6 @@
 		)
 		(uuid "3d8b441b-db07-4257-92b0-3918634d6ecb")
 	)
-	(label "TIM9_CH1_PWM"
-		(at 279.4 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52c9fd14-6128-44b7-96ab-67ffd0b1ae5d")
-	)
 	(label "SDIO_D1"
 		(at 342.9 198.12 0)
 		(effects
@@ -4046,26 +4056,6 @@
 		)
 		(uuid "5bc270a7-19af-4dda-9c3e-d274b84f8df0")
 	)
-	(label "TIM1_CH1_PWM"
-		(at 279.4 200.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68f24ed1-8a75-493c-bde4-3866a25533b2")
-	)
-	(label "TIM2_CH3_PWM"
-		(at 341.63 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d2265b0-5769-4c92-87e9-3cda63ec00dc")
-	)
 	(label "GPIO_EXTI0"
 		(at 341.63 238.76 0)
 		(effects
@@ -4075,6 +4065,26 @@
 			(justify left bottom)
 		)
 		(uuid "70045233-8a1b-4f18-8926-ce69b62894fd")
+	)
+	(label "TIM4_CH2"
+		(at 342.9 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72252c1f-0374-4335-aa6b-2d2f68c25878")
+	)
+	(label "TIM4_CH3"
+		(at 280.67 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f0dd4ef-2867-468d-be5c-9ff50e616f19")
 	)
 	(label "SPI1_MOSI"
 		(at 341.63 172.72 0)
@@ -4155,16 +4165,6 @@
 			(justify left bottom)
 		)
 		(uuid "d3245ef0-c31a-40b8-a712-8ebc80728ef5")
-	)
-	(label "TIM8_CH1_PWM"
-		(at 341.63 254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d569231f-6623-444f-a4ca-2d2c811dccd5")
 	)
 	(symbol
 		(lib_id "power:VDD")
