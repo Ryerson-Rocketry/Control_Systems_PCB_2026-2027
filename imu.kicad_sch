@@ -1050,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 149.86 90.17)
+			(xy 152.4 90.17) (xy 149.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1090,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 87.63) (xy 149.86 87.63)
+			(xy 152.4 87.63) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1248,8 +1248,8 @@
 		)
 		(uuid "11d67298-bf23-442a-8fec-e4619ad4e5ba")
 	)
-	(label "GPIO_EXTI1"
-		(at 154.94 90.17 0)
+	(label "IMU_GYRO_EXTI"
+		(at 152.4 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1258,8 +1258,8 @@
 		)
 		(uuid "18b0570b-bd62-45ee-ba9a-bcd4124833a9")
 	)
-	(label "GPIO_EXTI0"
-		(at 154.94 87.63 0)
+	(label "IMU_ACCEL_EXTI"
+		(at 152.4 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2007,4 +2007,5 @@
 			(page "5")
 		)
 	)
+	(embedded_fonts no)
 )
