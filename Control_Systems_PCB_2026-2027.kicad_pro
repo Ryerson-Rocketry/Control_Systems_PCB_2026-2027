@@ -682,6 +682,16 @@
         "filename": "flashmemorymodule.kicad_sch",
         "name": "FlashMemoryModule",
         "uuid": "ff9dd844-8656-4733-849c-7c804d2dce6d"
+      },
+      {
+        "filename": "canbus_2.0a.kicad_sch",
+        "name": "CANBus",
+        "uuid": "cca74756-a055-43f6-af67-629ef7bba81a"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "4f707874-286e-454c-9a16-4b6ad4f40405"
       }
     ],
     "used_designators": "",
@@ -719,6 +729,14 @@
     [
       "932c2d3a-4abb-4306-9a46-f3bdda211ee0",
       "SWD"
+    ],
+    [
+      "cca74756-a055-43f6-af67-629ef7bba81a",
+      "CANBus"
+    ],
+    [
+      "4f707874-286e-454c-9a16-4b6ad4f40405",
+      "Power"
     ]
   ],
   "text_variables": {},
