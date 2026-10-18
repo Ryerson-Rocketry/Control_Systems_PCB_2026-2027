@@ -682,9 +682,14 @@
         "filename": "flashmemorymodule.kicad_sch",
         "name": "FlashMemoryModule",
         "uuid": "ff9dd844-8656-4733-849c-7c804d2dce6d"
+      },
+      {
+        "filename": "canbus.kicad_sch",
+        "name": "CANBus",
+        "uuid": "7cfd59ec-76fc-4d72-a227-1a1b7bff4357"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1,#PWR9-10,#PWR13,#PWR49,#PWR51,#PWR53,#PWR55,#PWR57,C30-34,R13-16,J14,U2",
     "variants": []
   },
   "sheets": [
@@ -719,6 +724,10 @@
     [
       "932c2d3a-4abb-4306-9a46-f3bdda211ee0",
       "SWD"
+    ],
+    [
+      "7cfd59ec-76fc-4d72-a227-1a1b7bff4357",
+      "CANBus"
     ]
   ],
   "text_variables": {},
