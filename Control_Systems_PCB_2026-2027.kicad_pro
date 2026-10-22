@@ -654,11 +654,6 @@
         "uuid": "4cb8d8c9-28c6-4034-89a3-cec1725e3c68"
       },
       {
-        "filename": "untitled.kicad_sch",
-        "name": "Barometer",
-        "uuid": "cbc78bbf-0414-4702-8a1e-97634f37ed73"
-      },
-      {
         "filename": "usb-c_recepticle.kicad_sch",
         "name": "USB-C Recepticle",
         "uuid": "2bed0769-a6ea-4b71-b726-c9352a4abfa9"
@@ -687,9 +682,29 @@
         "filename": "canbus.kicad_sch",
         "name": "CANBus",
         "uuid": "7cfd59ec-76fc-4d72-a227-1a1b7bff4357"
+      },
+      {
+        "filename": "5vldo.kicad_sch",
+        "name": "5V_LDO",
+        "uuid": "920f983d-7c36-4046-8270-2f6602e1e6f9"
+      },
+      {
+        "filename": "connectors.kicad_sch",
+        "name": "Connectors",
+        "uuid": "ae30da69-7a6f-4cee-96a6-2479c66f7d96"
+      },
+      {
+        "filename": "radio.kicad_sch",
+        "name": "Radio",
+        "uuid": "a89d5c62-1c00-46e6-b970-7139653bf515"
+      },
+      {
+        "filename": "baro.kicad_sch",
+        "name": "Baro",
+        "uuid": "c3eac241-bdcc-4b35-a1c8-3fafdb1694b9"
       }
     ],
-    "used_designators": "D1,#PWR9-10,#PWR13,#PWR49,#PWR51,#PWR53,#PWR55,#PWR57,C30-34,R13-16,J14,U2",
+    "used_designators": "IC1,J5-6,J8-12,J14,#FLG1-3,R9,R13-17,FB1,#PWR1-10,#PWR13,#PWR21-22,#PWR24-25,#PWR29,#PWR33-34,#PWR49-58,#PWR61-76,D1,C1-4,C13,C30-39,U1-2,U4-5,U7,CN1",
     "variants": []
   },
   "sheets": [
@@ -702,8 +717,8 @@
       "GPS"
     ],
     [
-      "cbc78bbf-0414-4702-8a1e-97634f37ed73",
-      "Barometer"
+      "c3eac241-bdcc-4b35-a1c8-3fafdb1694b9",
+      "Baro"
     ],
     [
       "2bed0769-a6ea-4b71-b726-c9352a4abfa9",
@@ -728,6 +743,18 @@
     [
       "7cfd59ec-76fc-4d72-a227-1a1b7bff4357",
       "CANBus"
+    ],
+    [
+      "920f983d-7c36-4046-8270-2f6602e1e6f9",
+      "5V_LDO"
+    ],
+    [
+      "a89d5c62-1c00-46e6-b970-7139653bf515",
+      "Radio"
+    ],
+    [
+      "ae30da69-7a6f-4cee-96a6-2479c66f7d96",
+      "Connectors"
     ]
   ],
   "text_variables": {},
